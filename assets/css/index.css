@@ -1,0 +1,99 @@
+body{
+    background-image: url("./../../img/beauty2.jpg");
+ background-size: 100%;
+    background-repeat: no-repeat;
+}
+.div1{
+    float: left;
+    position: relative;
+    margin-top: 155px;
+color: #1d2a3e;
+background-color: #f5e4dc52;
+}
+h1{
+    margin-left: 36px;
+}
+.H11{
+    padding-left: 71px;
+  }
+.B{
+
+color: red;
+padding-left: 71px;
+
+}
+.p1{
+    padding-left: 22px;
+    padding-right: 22px;
+
+}
+.p2{
+    padding-left: 79px;
+
+}
+
+.topnav {
+    
+    overflow: hidden;
+   
+  }
+  .topnav a {
+    float: right;;
+    display: block;
+   
+    text-align:center;
+    
+  
+    font-size: 18px;
+    margin-right:70px;
+    font-style: normal;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+   
+  }
+  
+  
+  .topnav .icon {
+    display: none;
+  }
+  .active2{
+      color:rgba(29, 24, 24, 0.795);
+  }
+  .registerFormClass{   
+    font-size: 20px;
+        float: right;
+        margin-top: 100px;
+     margin-right: 132px;
+     height: 50%;
+     width: 22%;
+        line-height:50px;
+        color: #1d2a3e;
+        background-color: #f5e4dc52;
+        padding-left: 65px;
+        padding-right: 65px;
+        display: none;
+
+  }
+  .loginFormClass{
+    font-size: 20px;
+    float: right;
+    margin-top: 100px;
+ margin-right: 132px;
+ height: 50%;
+ width: 22%;
+    line-height:50px;
+    color: #1d2a3e;
+    background-color: #f5e4dc52;
+    padding-left: 65px;
+    padding-right: 65px;
+    display: none;
+
+  }
+  button{
+    background-color: white;
+    color: #47505f;
+    border: none;
+    width: 172px;
+    height: 42px;
+    font-size: 20px;
+    margin-left: 67px;
+  }

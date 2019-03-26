@@ -1,0 +1,40 @@
+body{
+    background-image: url("./../../img/assorted-blurred-background-boutique-994523.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.B{
+
+    color: red;
+    padding-left: 71px;
+    
+    }
+    .loginFormClass{
+        font-size: 20px;
+        float: left;
+        margin-top: 13%;
+        margin-left: 5%;
+     height: 50%;
+     width: 25%;
+     background-color: #5e5d6361;
+        line-height:50px;
+        color: white;
+        padding-left: 65px;
+        padding-right: 65px;
+        display: block;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+    
+      }
+      button{
+        background-color: white;
+        color: #47505f;
+        border: none;
+        width: 172px;
+        height: 42px;
+        font-size: 20px;
+        margin-left: 67px;
+      }
+      h2{
+          padding-left: 18%;
+      }

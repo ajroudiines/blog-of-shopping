@@ -1,0 +1,39 @@
+body{
+    background-image: url("./../../img/ModCloth-1.jpg");
+ background-size: 100%;
+    background-repeat: no-repeat;
+}
+.div1{
+position: relative;
+margin-left: 495px;
+margin-top: 140px;
+color: white;
+
+}
+h1{
+    padding-top: 20px;
+    padding-left: 38px;
+    font-size: 87px;
+    
+}
+p{
+    font-family: "FuturaPTWeb", Arial, sans-serif;
+    font-size: 0.875rem;
+    padding-left: 38px;
+
+}
+.H11{
+    padding-left: 23px;
+    
+}
+button{
+    background-color: white;
+    color: #47505f;
+    border: none;
+    width: 172px;
+    height: 42px;
+    font-size: 28px;
+    margin-left: 81px;
+
+
+}

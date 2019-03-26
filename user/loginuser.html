@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./../assets/css/index.css" />
+   
+</head>
+<body >
+        <div class="topnav" id="myTopnav">
+           
+                <a class="active2" href="#about" onclick="openForm()">JOIN</a>
+               <a class="active2" href="#ouabt"  onclick="openForm2()">Sign In</a>
+               <a class="active2" href="#about">Find a FitShop</a>
+               
+           </div>
+    <div class="div1">
+    <h1><span class="H11"> Shopping online is divine,</span><br> but there's nothing like the real thing.</h1>
+    <p> <span class="p1"> Visit a FitShop to browse a rotating selection of the latest and 
+        loveliest from our site </span><br> <span class="p1">The best part! Most styles come in sizes XXS to
+        4X, So you can find your perfect fit ! </span><br> <span class="p2"> Drop in anytime, or book a free 
+        styling session with a ModStylist.</span>
+    </p>
+</div>
+<div id="registerForm" class="registerFormClass">
+        <h3>Inscrivez-vous!</h3>
+                <label for="CIN">CIN :</label>
+
+                <input type="number" placeholder="enter your CIN number" id="CIN"> <br>
+
+                <label for="Firstname">Firstname :</label>
+               
+                <input type="text" placeholder="enter your Firstname" id="Fname">
+                
+                <label for="Lastname">Lastname :</label>
+               
+                <input type="text" placeholder="enter your Lastname" id="Lname">
+                
+                <label for="Birthdate">Birthdate :</label>
+                
+                <input type="date" placeholder="enter your Birthdate"id="Birth">
+                
+                <p id="para"></p>
+                
+                <label for="Email">Email :</label>
+               
+                <input type="email" placeholder="enter your E-mail"id="Email">    
+                
+                <label for="Password">Password :</label>
+               
+                <input type="password" placeholder="enter your Password"id="pwd">
+                
+                <p id="para1"></p>
+                
+                <button onclick="valide()">Register Now !</button>
+           
+</div>
+<div id="loginForm" class="loginFormClass">
+        <h3>Connectez-vous</h3>
+        CIN : <input type="text" id="log"> <br>
+        password : <input type="password" id="pass"><br>
+        <button onclick="connexion()"> connecter </button>
+        <p id="message" class="B"></p>
+
+</div>
+<script src="./../assets/js/main.js"></script>
+</body>
+</html>
